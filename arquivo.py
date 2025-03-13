@@ -1,10 +1,10 @@
 def main():
     print("Bem-vindo ao conversor de temperaturas!")
 
-if __name__ == "__main__":
-    main()
-    def celsius_to_fahrenheit(celsius):
-    return (celsius * 9/5) + 32
+    if __name__ == "__main__":
+        main()
+        def celsius_to_fahrenheit(celsius):
+        return (celsius * 9/5) + 32
 
 def main():
     print("Bem-vindo ao conversor de temperaturas!")
@@ -12,10 +12,10 @@ def main():
     temp_f = celsius_to_fahrenheit(temp_c)
     print(f"{temp_c}°C é igual a {temp_f}°F")
 
-if __name__ == "__main__":
-    main()
-    def celsius_to_fahrenheit(celsius):
-    return (celsius * 9/5) + 32
+    if __name__ == "__main__":
+        main()
+        def celsius_to_fahrenheit(celsius):
+        return (celsius * 9/5) + 32
 
 def fahrenheit_to_celsius(fahrenheit):
     return (fahrenheit - 32) * 5/9
@@ -29,10 +29,10 @@ def main():
     temp_c = fahrenheit_to_celsius(temp_f)
     print(f"{temp_f}°F é igual a {temp_c}°C")
 
-if __name__ == "__main__":
-    main()
-    def celsius_to_fahrenheit(celsius):
-    return (celsius * 9/5) + 32
+    if __name__ == "__main__":
+        main()
+        def celsius_to_fahrenheit(celsius):
+        return (celsius * 9/5) + 32
 
 def fahrenheit_to_celsius(fahrenheit):
     return (fahrenheit - 32) * 5/9
@@ -52,9 +52,9 @@ def main():
     else:
         print("Escolha inválida. Por favor, execute o programa novamente e escolha 'C' ou 'F'.")
 
-if __name__ == "__main__":
-    main()
-    import os
+    if __name__ == "__main__":
+        main()
+        import os
 
 def celsius_to_fahrenheit(celsius):
     return (celsius * 9/5) + 32
@@ -84,5 +84,5 @@ def main():
         input("Pressione Enter para continuar...")
         os.system('cls' if os.name == 'nt' else 'clear')
 
-if __name__ == "__main__":
-    main()
+    if __name__ == "__main__":
+        main()
